@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="app.js"></script>
+</head>
+<body>
+  <main>
+    <section class="calc">
+        <div class="calc--display">
+            <p class="calc--previous" id="previous">0</p>
+            <p class="calc--result" id="result">0</p>
+
+        </div>
+        <div class="calc--keys">
+            <button class="calc--key op" data-type="operator" data-key="plus">&plus;</button>
+            <button class="calc--key op" data-type="operator" data-key="minus">&minus;</button>
+            <button class="calc--key op" data-type="operator" data-key="times">&#215;</button>
+            <button class="calc--key op" data-type="operator" data-key="divide">&#247;</button>
+            <button class="calc--key op" data-type="squared"  id="squared">x²</button>
+            <button class="calc--key op" data-type="root"  id="root">&#8730;x</button>
+             <button class="calc--key op" data-type="switch"  id="switch">&plus;/&minus;<button>
+            <button class="calc--key number" id="first" data-type="number">7</button>
+            <button class="calc--key number" data-type="number">8</button>
+            <button class="calc--key number" data-type="number">9</button>
+            <button class="calc--key number" data-type="number">4</button>
+            <button class="calc--key number" data-type="number">5</button>
+            <button class="calc--key number" data-type="number">6</button>
+            <button class="calc--key number" data-type="number">1</button>
+            <button class="calc--key number" data-type="number">2</button>
+            <button class="calc--key number" data-type="number">3</button>
+            <button class="calc--key number" data-type="number">0</button>
+            <button class="calc--key number" data-type="number">.</button>
+            <button class="calc--key" data-type="clear" id="clear">C</button>
+            <button class="calc--key" data-type="equal" id="equal"> = </button>
+        </div>
+    </section>
+  </main>  
+</body>
+</html>
